@@ -4,7 +4,7 @@ title:      "Netartmedia Event Portal 2.0 - 'Email' SQL Injection"
 date:       2019-03-19 12:35
 author:     "Ahmet Ümit BAYRAM"
 category:   exploit
-tags:       [xss, cross site scripting, exploit-db]
+tags:       [sql, sqli, sql injection, exploit-db]
 ---
 
 # Exploit Title: Netartmedia Event Portal 2.0 - 'Email' SQL Injection
