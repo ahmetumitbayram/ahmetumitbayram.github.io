@@ -1,7 +1,7 @@
 ---
-title: /peter
+title: /whoami
 layout: page
-permalink: /peter
+permalink: /whoami
 ---
 
 # Peter principle
