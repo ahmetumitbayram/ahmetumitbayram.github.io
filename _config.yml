@@ -1,15 +1,10 @@
-# Example Site settings
-
-#google_analytics: UA-NNNNNNNN-N
-
+style: dark
 header_pages:
   - index.md
   - about.md
 
-footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
+footer: 'follow me on <a href="https://twitter.com/">ahmetumitbayram</a>'
 
-style: dark # dark (default) or light
-listen_for_clients_preferred_style: true # true or false (default)
-
+listen_for_clients_preferred_style: true
 plugins:
   - jekyll-seo-tag
