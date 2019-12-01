@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Test Blog 2"
-date:   2019-12-01 12:32:45 +0100
-categories:
+date:   2019-12-01 00:32:45 +0100
+categories: deneme
 ---
 
 # Test Blog 2
