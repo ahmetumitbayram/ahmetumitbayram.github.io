@@ -7,3 +7,4 @@ footer: 'follow me on <a href="https://twitter.com/">ahmetumitbayram</a>'
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-admin
