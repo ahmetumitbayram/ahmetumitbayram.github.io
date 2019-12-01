@@ -12,7 +12,3 @@ header_pages:
 style: dark
 
 footer: 'follow me on <a href="https://twitter.com/">ahmetumitbayram</a>'
-
-# Build settings
-markdown: kramdown
-remote_theme: /
