@@ -1,3 +1,12 @@
+---
+layout:     post
+title:      "Netartmedia Real Estate Portal 5.0 - Multiple SQL Injection"
+date:       2019-03-19 12:37
+author:     "Ahmet Ümit BAYRAM"
+category:   exploit
+tags:       [sql, sqli, sql injection, exploit-db]
+---
+
 # Exploit Title: Netartmedia Real Estate Portal 5.0 - Multiple SQL Injection
 # Date: 19.03.2019
 # Exploit Author: Ahmet Ümit BAYRAM
@@ -6,8 +15,7 @@
 # Version: 5.0
 # Tested on: Kali Linux
 # CVE: N/A
-# Description: The real estate portal software is made to be
-multi-language, the main site can show multiple languages and let the site
+# Description: The real estate portal software is made to be multi-language, the main site can show multiple languages and let the site
 visitors choose their preferred language.
 
 ----- PoC 1: SQLi -----
