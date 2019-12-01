@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Gila CMS 1.9.1 - Cross-Site Scripting"
-date:       2019-11-03 12:34
+date:       2019-03-11 12:34
 author:     "Ahmet Ümit BAYRAM"
 category:   exploit
 tags:       [xss, cross site scripting, exploit-db]
