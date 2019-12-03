@@ -1,5 +1,5 @@
 ---
-title: HoF
+title: hof
 layout: page
 permalink: /hof
 ---
