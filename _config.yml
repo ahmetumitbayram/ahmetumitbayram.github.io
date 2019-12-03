@@ -2,6 +2,7 @@ style: dark
 header_pages:
   - index.md
   - about.md
+  - hof.md
 
 footer: 'follow me on <a href="https://twitter.com/ahmetumitbayram">twitter</a>'
 
