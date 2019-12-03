@@ -1,5 +1,5 @@
 ---
-title: Hall of Fame
+title: HoF
 layout: page
 permalink: /hof
 ---
