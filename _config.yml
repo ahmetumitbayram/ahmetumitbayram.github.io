@@ -3,7 +3,7 @@ header_pages:
   - index.md
   - about.md
 
-footer: 'follow me on <a href="https://twitter.com/">ahmetumitbayram</a>'
+footer: 'follow me on <a href="https://twitter.com/ahmetumitbayram">twitter</a>'
 
 plugins:
   - jekyll-seo-tag
