@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Jettweb PHP Hazır Haber Sitesi Scripti V3 - Multiple Vulnerabilities"
+title:      "Jettweb Haber Sitesi V3 - Multiple Vulnerabilities"
 date:       2019-03-25 12:39
 author:     "Ahmet Ümit BAYRAM"
 category:   exploit
