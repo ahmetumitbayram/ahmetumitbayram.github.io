@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Jettweb PHP Hazır Haber Sitesi Scripti V2 - Authentication Bypass"
+title:      "Jettweb Haber Sitesi Scripti V2 - Authentication Bypass"
 date:       2019-03-25 12:37
 author:     "Ahmet Ümit BAYRAM"
 category:   exploit
