@@ -12,6 +12,7 @@ permalink: /hof
 - Erasmus University (SQLi)
 - Intel (SQLi)
 - Dell (Authentication Bypass)
+- GoDaddy (Directory Traversal)
 - University of Twente (Multiple Vulnz.)
 - Ford (XSS)
 - Drexel University (Multiple XSS)
