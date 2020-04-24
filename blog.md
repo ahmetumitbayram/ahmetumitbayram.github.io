@@ -1,7 +1,7 @@
 ---
-title: blog
+title: medium
 layout: page
-permalink: /blog
+permalink: /medium
 ---
 
 <meta http-equiv="refresh" content="0;URL=https://medium.com/@ahmetumitbayram">
