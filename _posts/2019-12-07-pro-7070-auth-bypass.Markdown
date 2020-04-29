@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "PRO-7070 Hazır Profesyonel Web Sitesi 1.0 - Authentication Bypass"
+title:      "PRO-7070 1.0 - Authentication Bypass"
 date:       2019-12-07 12:15
 author:     "Ahmet Ümit BAYRAM"
 category:   exploit
