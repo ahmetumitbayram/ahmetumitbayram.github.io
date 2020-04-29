@@ -6,7 +6,11 @@ header_pages:
   - blog.md
   - medium.md
   - linkedin.md
+  - github.md
   - twitter.md
+  - hackerone.md
+  - bugcrowd.md
+  
   
 
 footer: 'follow me on <a href="https://twitter.com/ahmetumitbayram">twitter</a>'
