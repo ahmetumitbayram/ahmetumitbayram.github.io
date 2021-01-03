@@ -10,12 +10,9 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
-  new_doc_ext: Markdown
+  new_doc_ext: ".Markdown"
   templates:
-  - root
-- type: document
-  path: _posts
-  label: post
+  - template
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: "/uploads"
