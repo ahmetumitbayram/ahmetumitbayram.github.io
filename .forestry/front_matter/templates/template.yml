@@ -38,3 +38,5 @@ fields:
   config:
     required: false
   label: tags
+pages:
+- _posts/2021-01-03-deneme1.Markdown
