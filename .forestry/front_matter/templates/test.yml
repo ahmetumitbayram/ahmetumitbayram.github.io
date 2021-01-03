@@ -11,5 +11,10 @@ fields:
 - type: text
   name: permalink
   label: permalink
+- name: test
+  type: include
+  config: {}
+  template: test
+  label: test
 pages:
 - _posts/2021-01-03-deneme.md
