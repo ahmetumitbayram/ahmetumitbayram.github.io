@@ -27,3 +27,13 @@ fields:
   config:
     required: false
   label: category
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+- name: tags
+  type: text
+  config:
+    required: false
+  label: tags
