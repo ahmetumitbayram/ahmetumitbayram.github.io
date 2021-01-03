@@ -13,3 +13,4 @@ fields:
   label: permalink
 pages:
 - _posts/2021-01-03-oldumu.Markdown
+- _posts/title.Markdown
