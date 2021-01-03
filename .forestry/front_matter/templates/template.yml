@@ -36,4 +36,4 @@ fields:
     required: false
   label: tags
 pages:
-- _posts/2021-01-03-deneme.Markdown
+- _posts/test.Markdown
