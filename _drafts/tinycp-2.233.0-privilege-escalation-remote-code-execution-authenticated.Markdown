@@ -1,0 +1,40 @@
+---
+layout: post
+title: TinyCP 2.233.0 - Privilege Escalation & Remote Code Execution (Authenticated)
+date: 2020-10-21 21:00:00 +0000
+author: Ahmet Ümit BAYRAM
+category: exploit
+tags: rce,exploit,command,execution,code,tinycp,privilege,escalation
+
+---
+
+| --- | --- | --- | --- |
+| Ahmet Ümit BAYRAM <ahmetumitbayram@gmail.com> | 22 Eki 2020 Per 17:38 |  |  |
+| Alıcı: submit |
+
+\# Exploit Title: TinyCP 2.233.0 - Privilege Escalation & Remote Code Execution (Authenticated)  
+\# Date: 2020-10-22  
+\# Exploit Author: Ahmet Ümit BAYRAM  
+\# Vendor: [https://tinycp.com](https://tinycp.com "https://tinycp.com")  
+\# Software Link: [https://tinycp.com/page/show/download](https://tinycp.com "https://tinycp.com")  
+\# Version: 2.233.0  
+\# Tested on: Kali Linux & Ubuntu 18.04.5  
+\# CVE: N/A  
+  
+\----- PoC -----  
+  
+If you are logged was admin;  
+  
+1- Go to System -> Cron  
+  
+2- First select "root" from the "user" box.  
+  
+3- Then select "cmd" from the "type" box.  
+  
+4- Mark "Schedule" as "every minute"  
+  
+5- Paste your nc reverse shell command and click to "add" button.  
+  
+6- Wait 1 minute...  
+  
+7- You are now root! Enjoy it.
