@@ -37,3 +37,4 @@ fields:
   label: tags
 pages:
 - _posts/2020-10-22-ajenti-2.1.36-remote-code-execution-authenticated.Markdown
+- _posts/berlicrm-1.0.24-src_record-sql-injection.Markdown
