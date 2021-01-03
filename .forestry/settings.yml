@@ -10,7 +10,7 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
-  new_doc_ext: ".Markdown"
+  new_doc_ext: Markdown
   templates:
   - root
 - type: document
