@@ -3,17 +3,14 @@ label: template
 hide_body: false
 display_field: title
 fields:
-- type: text
-  name: title
-  label: title
-- type: text
-  name: permalink
-  label: permalink
-- name: author
+- name: layout
   type: text
   config:
     required: false
-  label: author
+  label: layout
+- type: text
+  name: title
+  label: title
 - name: date
   type: datetime
   label: date
@@ -23,16 +20,16 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+- name: author
+  type: text
+  config:
+    required: false
+  label: author
 - name: category
   type: text
   config:
     required: false
   label: category
-- name: layout
-  type: text
-  config:
-    required: false
-  label: layout
 - name: tags
   type: text
   config:
