@@ -37,6 +37,6 @@ fields:
   label: tags
 pages:
 - _posts/2020-10-12-berlicrm-1.0.24-src_record-sql-injection.Markdown
+- _posts/2020-10-21-tinycp-2.233.0-privilege-escalation-remote-code-execution-authenticated.Markdown
 - _posts/2020-10-22-ajenti-2.1.36-remote-code-execution-authenticated.Markdown
 - _posts/2020-10-22-webmin-1.960-remote-code-execution-authenticated.Markdown
-- _posts/tinycp-2.233.0-privilege-escalation-remote-code-execution-authenticated.Markdown
