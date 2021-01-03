@@ -36,4 +36,4 @@ fields:
     required: false
   label: tags
 pages:
-- _posts/berlicrm-1.0.24-src_record-sql-injection.Markdown
+- _posts/2020-10-10-berlicrm-1.0.24-src_record-sql-injection.Markdown
