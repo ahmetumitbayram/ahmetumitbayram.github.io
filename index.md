@@ -1,7 +1,7 @@
 ---
-title: root
+title: aaaa
 layout: home
-permalink: /
----
+permalink: "/"
 
+---
 # Welcome to My Site
