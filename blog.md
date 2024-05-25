@@ -1,6 +1,7 @@
 ---
 layout: category
-title: Blog
+title: /blog
 category: blog
 permalink: /blog/
 ---
+# Blog
