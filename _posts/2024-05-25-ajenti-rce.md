@@ -1,9 +1,8 @@
 ---
 layout: post
-title: /blog
+title: "Bir Blog Yazısı"
 date: 2024-05-25
 category: blog
 ---
 
-
-test
+Bu bir test yazısıdır.
