@@ -1,9 +1,9 @@
 ---
-layout: post
-title: /blog
+layout: category
+title: Blog Yazıları
 category: blog
+permalink: /blog/
 ---
-
 
 # Blog
 
