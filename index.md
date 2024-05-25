@@ -1,6 +1,6 @@
 ---
 title: /root
-layout: category
+layout: page
 permalink: /
 ---
 
