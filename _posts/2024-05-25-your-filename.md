@@ -1,11 +1,9 @@
 ---
 layout: post
 title: 7 Sticky Notes v1.9 - OS Command Injection
-date: 2024-05-25
+date: {}
 category: exploit
 ---
-
-
 # Exploit Title: 7 Sticky Notes v1.9 - OS Command Injection
 # Discovered by: Ahmet Ümit BAYRAM
 # Discovered Date: 12.09.2023
@@ -28,4 +26,3 @@ within 1 second).
 button to set the alarm.
 # Finally, click on the checkmark to save the alarm.
 # Reverse shell obtained!
-            
