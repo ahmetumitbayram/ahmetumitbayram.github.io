@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: post
 title: /blog
-permalink: /blog/
+category: blog
 ---
+
 
 # Blog
 
