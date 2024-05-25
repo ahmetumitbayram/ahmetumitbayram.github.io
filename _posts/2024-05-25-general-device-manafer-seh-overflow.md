@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "
-General Device Manager 2.5.2.2 - Buffer Overflow (SEH)"
+title: "General Device Manager 2.5.2.2 - Buffer Overflow (SEH)"
 date: 2024-05-25
 category: exploit
 ---
