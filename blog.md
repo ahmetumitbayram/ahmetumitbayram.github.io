@@ -1,10 +1,6 @@
 ---
-title: /blog
 layout: category
+title: Blog
 category: blog
 permalink: /blog/
 ---
-
-# Blog
-
-Blog sayfasına hoş geldiniz.
