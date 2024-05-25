@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ajenti 2.1.36 - Remote Code Execution
-date: {}
+date: 2024-05-25
 category: exploit
 ---
 
