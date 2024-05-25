@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Wolf CMS 0.8.3.1 - Remote Code Execution (RCE)
+title: Wolf CMS 0.8.3.1 - Remote Code Execution
 date: 2024-05-25
 category: exploit
 ---
