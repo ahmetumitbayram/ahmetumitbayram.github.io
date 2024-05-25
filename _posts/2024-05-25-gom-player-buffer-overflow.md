@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GOM Player 2.3.90.5360 - Buffer Overflow (PoC)
-date: {}
+date: 2024-05-25
 category: exploit
 ---
 
