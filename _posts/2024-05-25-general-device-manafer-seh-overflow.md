@@ -23,6 +23,7 @@ https://www.maxiguvenlik.com/uploads/importfiles/General_DeviceManager.zip
 # 7.- R.I.P. Condor <3
 
 
+################################################################
 
 import struct
 
