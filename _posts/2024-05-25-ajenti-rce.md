@@ -1,8 +1,10 @@
 ---
-layout: post
-title: "Bir Blog Yazısı"
-date: 2024-05-25
+layout: category
+title: Blog Yazıları
 category: blog
+permalink: /blog/
 ---
 
-Bu bir test yazısıdır.
+# Blog
+
+Blog sayfasına hoş geldiniz.
