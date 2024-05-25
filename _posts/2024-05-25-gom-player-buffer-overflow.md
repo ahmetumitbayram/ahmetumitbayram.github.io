@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Wp2Fac - OS Command Injection"
-date: 2024-05-25
+title: _posts/2024-05-25-gom-player-buffer-overflow.md
+date: {}
 category: exploit
 ---
 
@@ -36,4 +36,3 @@ try:
     print("POC is created")
 except:
     print("POC is not created")
-            
