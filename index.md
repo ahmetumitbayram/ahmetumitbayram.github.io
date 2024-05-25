@@ -4,4 +4,4 @@ layout: page
 permalink: /
 ---
 
-# websiteme hoş geldiniz.
+# websiteme hoş geldiniz! / welcome to my website!
