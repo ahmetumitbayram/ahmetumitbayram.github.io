@@ -4,12 +4,6 @@ title: Ajenti 2.1.36 - Remote Code Execution
 date: {}
 category: exploit
 ---
----
-layout: post
-title: "Ajenti 2.1.36 - Remote Code Execution"
-date: 2024-05-25
-category: exploit
----
 
 #!/usr/bin/python3
 
