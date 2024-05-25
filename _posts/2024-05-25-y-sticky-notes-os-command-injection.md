@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 7 Sticky Notes v1.9 - OS Command Injection
-date: {}
+date: 2024-05-25
 category: exploit
 ---
 # Exploit Title: 7 Sticky Notes v1.9 - OS Command Injection
