@@ -1,7 +1,7 @@
 ---
 layout: post
 title: NVClient v5.0 - Stack Buffer Overflow (DoS)
-date: {}
+date: 2024-05-25
 category: exploit
 ---
 
