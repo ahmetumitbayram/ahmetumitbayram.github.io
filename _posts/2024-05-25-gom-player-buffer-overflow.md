@@ -1,7 +1,7 @@
 ---
 layout: post
 title: _posts/2024-05-25-gom-player-buffer-overflow.md
-date: {}
+date: 2024-05-25
 category: exploit
 ---
 
