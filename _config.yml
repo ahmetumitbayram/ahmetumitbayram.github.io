@@ -8,7 +8,12 @@ header_pages:
   - about.md
   - blog.md
   - exploit.md
-  - contact
+  - contact.md
+
+collections:
+  posts:
+    output: true
+
   
 style: hacker
 
