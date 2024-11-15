@@ -17,7 +17,7 @@ collections:
   
 style: hacker
 
-footer: 'exploit artist - copyLeft 2024</a>'
+footer: 'exploit artist - copyLeft 2024'
 
 # Build settings
 markdown: kramdown
