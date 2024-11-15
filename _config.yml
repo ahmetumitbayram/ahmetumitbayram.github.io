@@ -1,5 +1,5 @@
-title: 'ahmetumitbayram.github.io'
-description: "ahmetumitbayram blog"
+title: 'Exploit Artist'
+description: "Exploit Artist"
 baseurl: "/"
 url: "https://ahmetumitbayram.github.io"
 
@@ -17,7 +17,7 @@ collections:
   
 style: hacker
 
-footer: 'follow me on <a href="https://x.com/crackinbad">X - (twitter)</a>'
+footer: 'exploit artist - copyLeft 2024</a>'
 
 # Build settings
 markdown: kramdown
