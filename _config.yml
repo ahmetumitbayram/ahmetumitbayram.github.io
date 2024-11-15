@@ -1,0 +1,24 @@
+title: 'ahmetumitbayram.github.io'
+description: "ahmetumitbayram blog"
+baseurl: "/"
+url: "https://ahmetumitbayram.github.io"
+
+header_pages:
+  - index.md
+  - about.md
+  - blog.md
+  - exploit.md
+  - contact.md
+
+collections:
+  posts:
+    output: true
+
+  
+style: hacker
+
+footer: 'follow me on <a href="https://x.com/crackinbad">X - (twitter)</a>'
+
+# Build settings
+markdown: kramdown
+remote_theme: b2a3e8/jekyll-theme-console
